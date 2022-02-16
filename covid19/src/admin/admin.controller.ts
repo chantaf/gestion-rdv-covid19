@@ -30,7 +30,7 @@ export class AdminsController {
   }
 
   @Delete(':adminId')
-  async deleteUser(@Param('adminId') adminId: string): Promise<Admin> {
+  async deleteAdmin(@Param('adminId') adminId: string): Promise<Admin> {
     return this.adminsService.deleteAdmin(adminId);
   }
 }
