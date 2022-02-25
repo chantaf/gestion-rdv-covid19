@@ -10,6 +10,9 @@ export class Vaccin {
     nom: string;
 
     @Prop()
+    prenom: string;
+
+    @Prop()
     user:  { type: mongoose.Schema.Types.ObjectId,  ref: 'user' };
   
 }
