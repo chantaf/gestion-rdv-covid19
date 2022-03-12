@@ -37,16 +37,19 @@ export default class SideBar extends Component {
                             <NavLink exact to="/" activeClassName="activeClicked" >
                                 <CDBSidebarMenuItem ><span className="sideIcon"><RiHome8Fill/></span>Home</CDBSidebarMenuItem>
                             </NavLink>
-                            <NavLink exact to="/commande" activeClassName="activeClicked">
+                            <NavLink exact to="/responsable" activeClassName="activeClicked">
                                 <CDBSidebarMenuItem><span className="sideIcon"><GiStorkDelivery/></span>Statistique</CDBSidebarMenuItem>
                             </NavLink>
-                            <NavLink exact to="/livreur" activeClassName="activeClicked">
+                            <NavLink exact to="/patien" activeClassName="activeClicked">
                                 <CDBSidebarMenuItem><span className="sideIcon"><IoPeopleSharp/></span>Vaccin1</CDBSidebarMenuItem>
                             </NavLink>
-                            <NavLink exact to="/manager" activeClassName="activeClicked">
+                            <NavLink exact to="/vaccin" activeClassName="activeClicked">
                                 <CDBSidebarMenuItem><span className="sideIcon"><IoPeopleSharp/></span>Vaccin2</CDBSidebarMenuItem>
                             </NavLink>
-                            <NavLink exact to="/reslivraison" activeClassName="activeClicked">
+                            <NavLink exact to="/effets secondaires" activeClassName="activeClicked">
+                                <CDBSidebarMenuItem><span className="sideIcon"><IoPeopleSharp/></span>Vaccin3</CDBSidebarMenuItem>
+                            </NavLink>
+                            <NavLink exact to="/maladies" activeClassName="activeClicked">
                                 <CDBSidebarMenuItem><span className="sideIcon"><IoPeopleSharp/></span>Vaccin3</CDBSidebarMenuItem>
                             </NavLink>
                             

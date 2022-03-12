@@ -100,10 +100,10 @@ function Stats() {
             <div className="mb-4 mb-lg-0 col-lg-7">
                 <div className="h-100 card">
                     <div className="card-header">
-                        <h4 class="card-heading">Statistique des prime par mois</h4>
+                        <h4 class="card-heading">Statistique des patien vacciner</h4>
                     </div>
                     <div className="card-body">
-                        <h4 className="header-title mb-3">Prime par mois :</h4>
+                        <h4 className="header-title mb-3">les trois vaccin :</h4>
                         <Chart
                             options={state.options}
                             series={state.series}
@@ -126,7 +126,7 @@ function Stats() {
                                         <span>{optionsRadial.series}</span>
                                         <span class="dot bg-green d-inline-block ms-3"></span>
                                     </h2>
-                                    <span class="text-muted text-uppercase small">Commande acceptée</span>
+                                    <span class="text-muted text-uppercase small">Maladies</span>
                                     <hr />
                                 </div>
                                 <div className="col-sm-7">
@@ -152,7 +152,7 @@ function Stats() {
                                         <span>{optionsRadial2.series}</span>
                                         <span class="dot bg-green d-inline-block ms-3"></span>
                                     </h2>
-                                    <span class="text-muted text-uppercase small">kilometrage</span>
+                                    <span class="text-muted text-uppercase small">effets secondaires</span>
                                     <hr />
                                 </div>
                                 <div className="col-sm-7">

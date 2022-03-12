@@ -63,9 +63,7 @@ export default function Login() {
                     fullWidth 
                     required/>
                 <Button type='submit' onClick={(e)=>login()} color='primary' variant="contained" style={btnstyle} fullWidth>Login</Button>
-                {/* <Typography >
-                    Authentifiez vous
-                </Typography> */}
+             
             </Paper>
         </Grid>
     )
