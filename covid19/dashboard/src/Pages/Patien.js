@@ -18,6 +18,7 @@ export default function Home() {
             .then(res=>(
                 setresponsables(res.data)
             ))
+
             .catch(err=>console.log(err))
             
     }

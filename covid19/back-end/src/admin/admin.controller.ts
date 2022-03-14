@@ -12,6 +12,7 @@ export class AdminsController {
   @Get(':adminId')
   async getAdmin(@Param('adminId') adminId: string): Promise<Admin> {
     return this.adminsService.getAdminById(adminId);
+    
   }
 
   @Get()
